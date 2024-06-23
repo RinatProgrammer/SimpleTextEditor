@@ -3,24 +3,22 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:/MinGW/include",
+                "C:/MinGW/lib/gcc/mingw32/8.2.0/include/c++",
+                "C:/MinGW/lib/gcc/mingw32/8.2.0/include/c++/mingw32",
+                "C:/MinGW/lib/gcc/mingw32/8.2.0/include/c++/backward"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
-            ]
-        },
-        {
-            "name": "MinGW",
-            "includePath": [
-                "${workspaceFolder}/**"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ]
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/MinGW/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
         }
     ],
     "version": 4
